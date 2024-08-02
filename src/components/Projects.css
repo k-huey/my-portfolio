@@ -1,0 +1,22 @@
+.projects {
+    padding: 2rem;
+    text-align: center;
+}
+
+.projects .project-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projects .project-item {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    width: 80%;
+    max-width: 600px;
+}
+
+.projects .project-item h3 {
+    margin-top: 0;
+}
